@@ -2,17 +2,32 @@ const express = require('express');
 const router = express.Router();
 const si = require('systeminformation');
 
-let hddStatus = [];
-let timeNow ='';
+let hddStatus = [{}];
 let cacheSystem;
 let infoSystem = [];
 async function HDD () {
+    /* Checking if needed with more HDDS
     await si.diskLayout()
         .then(data => {
-            timeNow = new Date().toLocaleString();
             return hddStatus = data;
         })
+        .catch(error => console.log(error))*/
+    await si.fsSize()
+        .then(data => {
+            let hddSize = [];
+            let freeSpaceHdd = data[0].size - data[0].used
+            console.log(freeSpaceHdd);
+            hddSize.push(data[0].fs);
+            hddSize.push(calcHdd(data[0].size/1000000));
+            hddSize.push(calcHdd(data[0].used/1000000));
+            hddSize.push(calcHdd(freeSpaceHdd/1000000))
+            return hddStatus = hddSize;
+        })
         .catch(error => console.log(error))
+}
+
+function calcHdd (number) {
+    return Number(number).toFixed(0);
 }
 async function gatherInfo ()  {
     try {
@@ -61,7 +76,6 @@ router.get('/serverinfo', (req, res, next) => {
 })
 router.get('/hddinfo', (req, res, next) => {
     HDD();
-    console.log(timeNow)
     res.status(200).json(hddStatus)
 })
 
