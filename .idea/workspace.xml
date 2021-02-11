@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d87ae431-b079-4530-a354-91afca9bab31" name="Default Changelist" comment="" />
+    <list default="true" id="d87ae431-b079-4530-a354-91afca9bab31" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console.log(data))" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/systeminformation" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/systeminformation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/systeminformation.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/systeminformation.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/.drone.jsonnet" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/.drone.jsonnet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/dist/keymetrics.es5.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/dist/keymetrics.es5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/dist/keymetrics.es5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/dist/keymetrics.es5.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/dist/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/node_modules/debug/src/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/api_mappings.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/api_mappings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/browser_strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/browser_strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/embed_strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/embed_strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/standalone_strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/standalone_strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/auth_strategies/strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/endpoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/endpoint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/keymetrics.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/keymetrics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/namespace.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/namespace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/network.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/network.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/utils/validator.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/utils/validator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/utils/websocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@pm2/js-api/src/utils/websocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/UPGRADE_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/dist/axios.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/adapters/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/Cancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/CancelToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/cancel/isCancel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/Axios.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/InterceptorManager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/buildFullPath.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/createError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/dispatchRequest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/enhanceError.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/mergeConfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/settle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/core/transformData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/bind.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/buildURL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/combineURLs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/deprecatedMethod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isAbsoluteURL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/isURLSameOrigin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/normalizeHeaderName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/parseHeaders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/helpers/spread.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/axios/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/https.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/debug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/node_modules/debug/src/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/follow-redirects/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/battery.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/battery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/cpu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/cpu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/docker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/docker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/dockerSocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/dockerSocket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/filesystem.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/filesystem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/graphics.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/graphics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/internet.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/internet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/memory.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/memory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/network.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/network.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/osinfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/osinfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/processes.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/processes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/system.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/system.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/virtualbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/virtualbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/lib/wifi.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/lib/wifi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/systeminformation/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/systeminformation/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +136,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1g2Xl37aozrlTnZLhTEK0Hfa81y" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,10 +146,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oraculi-2020" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.19.16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -42,6 +168,7 @@
       <workItem from="1598610681889" duration="125000" />
       <workItem from="1599209220011" duration="367000" />
       <workItem from="1612944768862" duration="17666000" />
+      <workItem from="1613079412011" duration="744000" />
     </task>
     <servers />
   </component>
