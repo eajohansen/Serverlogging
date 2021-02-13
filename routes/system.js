@@ -15,14 +15,18 @@ async function HDD () {
     await si.fsSize()
         .then(data => {
             let hddSize = [];
-            let freeSpaceHdd = data[0].size - data[0].used;
-            
-            hddSize.push({
-                'volume': data[0].fs,
-                'max_size': calcHdd(data[0].size/100000),
-                'used_size': calcHdd(data[0].used/1000000),
-                'free_space': calcHdd(freeSpaceHdd/1000000)
-            });
+            for(i = 0; i < 7; i++) {
+                if(data[i]) {
+                    let freeSpaceHdd = data[i].size - data[i].used;
+                    hddSize.push({
+                        'volume': data[i].fs,
+                        'max_size': calcHdd(data[i].size/100000),
+                        'used_size': calcHdd(data[i].used/1000000),
+                        'free_space': calcHdd(freeSpaceHdd/1000000)
+                    });
+                }
+
+            }
             return hddStatus = hddSize;
         })
         .catch(error => console.log(error))
@@ -36,7 +40,7 @@ async function gatherInfo ()  {
         const serverUptime = si.time().uptime;
         const servertime = si.time().current;
         await infoSystem.push({'current_time': new Date(servertime).toLocaleString()});
-        await infoSystem.push({'server_uptime': new Date(serverUptime * 1000).toISOString().substr(11, 8)});
+        await infoSystem.push({'server_uptime': Number(serverUptime/60/60).toFixed(2) });
         await si.cpuCurrentspeed()
             .then(data => {
                 infoSystem.push({'cpu_speed': data.cores});
@@ -71,10 +75,14 @@ async function gatherInfo ()  {
     }
 }
 
-setInterval(gatherInfo, 5000);
 
 router.get('/serverinfo', (req, res, next) => {
-    res.status(200).json(cacheSystem);
+    gatherInfo()
+        .then(
+            res.status(200).json(cacheSystem)
+        )
+        .catch('Error');
+
 })
 router.get('/hddinfo', (req, res, next) => {
     HDD();
